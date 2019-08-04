@@ -1,23 +1,23 @@
 <template>
   <div id="app">
-    <Show
-    />
+    <span>hello</span>
+    <Sidebar></Sidebar>
   </div>
 </template>
 
 <script>
-import Show from './components/show/Show'
-import HelloWorld from './components/HelloWorld'
+import Sidebar from './components/ChatRoom/Sidebar';
 
 export default {
   name: 'App',
   components: {
-    Show
+    Sidebar
   }
 }
 </script>
 
-<style>
+<style scoped>
+/* * {margin:0;padding:0} */
 #app {
 
 }
